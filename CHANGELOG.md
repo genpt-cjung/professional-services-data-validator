@@ -2,6 +2,27 @@
 
 ## Untagged
 
+## [4.4.0](https://github.com/GoogleCloudPlatform/professional-services-data-validator/compare/v4.3.0...v4.4.0) (2024-01-22)
+
+
+### Features
+
+* Add PostgreSQL OID support ([#1076](https://github.com/GoogleCloudPlatform/professional-services-data-validator/issues/1076)) ([58f8fcb](https://github.com/GoogleCloudPlatform/professional-services-data-validator/commit/58f8fcb56d6b6c73647a925550085fea8e7a0562))
+* Support for Kubernetes ([#1058](https://github.com/GoogleCloudPlatform/professional-services-data-validator/issues/1058)) ([fdbdbe0](https://github.com/GoogleCloudPlatform/professional-services-data-validator/commit/fdbdbe06bd7a5a52cae63b4d701d7eb7270f20fa))
+
+
+### Bug Fixes
+
+* Better casts to string for binary floats/doubles ([#1078](https://github.com/GoogleCloudPlatform/professional-services-data-validator/issues/1078)) ([15bfc4c](https://github.com/GoogleCloudPlatform/professional-services-data-validator/commit/15bfc4c85e43894f03288cf10aa7888a95342a05))
+* Remove DDL automatically issued by Ibis for Postgres connections ([#1067](https://github.com/GoogleCloudPlatform/professional-services-data-validator/issues/1067)) ([c2b660b](https://github.com/GoogleCloudPlatform/professional-services-data-validator/commit/c2b660b4f63a1fe1ca1dd258ff943f16b866e4b2))
+* Spanner generate-partition to use BQ dialect ([#1066](https://github.com/GoogleCloudPlatform/professional-services-data-validator/issues/1066)) ([f3cc565](https://github.com/GoogleCloudPlatform/professional-services-data-validator/commit/f3cc565b1cbb33e60412210bdeae986678417fcc))
+* spanner hash function to return string instead of bytes ([#1062](https://github.com/GoogleCloudPlatform/professional-services-data-validator/issues/1062)) ([722dff9](https://github.com/GoogleCloudPlatform/professional-services-data-validator/commit/722dff91a5af6cf6c9ef134117ea4dd31c568438))
+
+
+### Documentation
+
+* Updates on nested column limitations, contributing guide examples and incorrect example ([#1082](https://github.com/GoogleCloudPlatform/professional-services-data-validator/issues/1082)) ([cc0f60a](https://github.com/GoogleCloudPlatform/professional-services-data-validator/commit/cc0f60a4921f2a37a9b376c7646978674c7a1dd2))
+
 ## [4.3.0](https://github.com/GoogleCloudPlatform/professional-services-data-validator/compare/v4.2.0...v4.3.0) (2023-11-28)
 
 
